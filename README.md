@@ -2,6 +2,8 @@
 
 Native macOS app that shows a floating panel for selected text and uses a configurable LLM backend for translation or search.
 
+![alt text](image.png)
+
 ## Quick Start
 1. Open `shadowTunnel.xcodeproj` in Xcode.
 2. In Xcode, enable Accessibility permission for the app when prompted.
