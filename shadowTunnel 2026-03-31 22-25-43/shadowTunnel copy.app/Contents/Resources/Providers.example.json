@@ -1,0 +1,46 @@
+{
+  "providers": [
+    {
+      "id": "openai",
+      "type": "openai-compatible",
+      "baseURL": "https://api.openai.com",
+      "apiKey": "REPLACE_ME",
+      "model": "gpt-4o-mini",
+      "headers": {
+        "Authorization": "Bearer ${API_KEY}"
+      }
+    },
+    {
+      "id": "qwen",
+      "type": "qwen",
+      "baseURL": "https://dashscope.aliyuncs.com/compatible-mode",
+      "apiKey": "REPLACE_ME",
+      "model": "qwen-turbo",
+      "headers": {
+        "Authorization": "Bearer ${API_KEY}"
+      }
+    },
+    {
+      "id": "doubao",
+      "type": "doubao",
+      "baseURL": "https://ark.cn-beijing.volces.com",
+      "apiKey": "REPLACE_ME",
+      "model": "ep-your-doubao-endpoint-id",
+      "headers": {
+        "Authorization": "Bearer ${API_KEY}"
+      }
+    },
+    {
+      "id": "gemini",
+      "type": "gemini",
+      "baseURL": "https://generativelanguage.googleapis.com",
+      "apiKey": "REPLACE_ME",
+      "model": "gemini-1.5-flash"
+    }
+  ],
+  "defaults": {
+    "translateProviderId": "gemini",
+    "searchProviderId": "gemini",
+    "translationTargetLanguage": "zh"
+  }
+}

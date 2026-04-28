@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1C0A001D0A1000000000001 /* shadowTunnelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A020D0A1000000000001 /* shadowTunnelApp.swift */; };
+		A1C0A002D0A1000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A021D0A1000000000002 /* ContentView.swift */; };
+		A1C0A003D0A1000000000003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A022D0A1000000000003 /* AppDelegate.swift */; };
+		A1C0A00DD0A100000000000D /* HotKeyRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A02DD0A100000000000E /* HotKeyRecorderView.swift */; };
+		A1C0A00ED0A100000000000E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A02ED0A100000000000F /* SettingsView.swift */; };
+		A1C0A00FD0A100000000000F /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A02FD0A1000000000010 /* HistoryView.swift */; };
+		A1C0B010D0A1000000000010 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A030D0A1000000000011 /* HistoryStore.swift */; };
+		A1C0A011D0A1000000000011 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A031D0A1000000000012 /* UserSettings.swift */; };
+		A1C0A012D0A1000000000012 /* HistoryWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A032D0A1000000000013 /* HistoryWindowController.swift */; };
+		A1C0A004D0A1000000000004 /* HotKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A023D0A1000000000004 /* HotKeyManager.swift */; };
+		A1C0A005D0A1000000000005 /* SelectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A024D0A1000000000005 /* SelectionManager.swift */; };
+		A1C0A006D0A1000000000006 /* FloatingPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A025D0A1000000000006 /* FloatingPanelController.swift */; };
+		A1C0A007D0A1000000000007 /* OverlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A026D0A1000000000007 /* OverlayViewModel.swift */; };
+		A1C0A008D0A1000000000008 /* LLMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A027D0A1000000000008 /* LLMClient.swift */; };
+		A1C0A009D0A1000000000009 /* Providers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A028D0A1000000000009 /* Providers.swift */; };
+		A1C0A00AD0A100000000000A /* ConfigLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A029D0A100000000000A /* ConfigLoader.swift */; };
+		A1C0A0C1D0A10000000000C1 /* YouTubeTranscriptClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A0C0D0A10000000000C0 /* YouTubeTranscriptClient.swift */; };
+		A1C0A0C3D0A10000000000C3 /* KeyboardSubmitTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C0A0C2D0A10000000000C2 /* KeyboardSubmitTextView.swift */; };
+		A1C0A00BD0A100000000000B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C0A02AD0A100000000000B /* Assets.xcassets */; };
+		A1C0A00CD0A100000000000C /* Providers.example.json in Resources */ = {isa = PBXBuildFile; fileRef = A1C0A02BD0A100000000000C /* Providers.example.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1C0A010D0A1000000000010 /* shadowTunnel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = shadowTunnel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C0A020D0A1000000000001 /* shadowTunnelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shadowTunnelApp.swift; sourceTree = "<group>"; };
+		A1C0A021D0A1000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1C0A022D0A1000000000003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1C0A02DD0A100000000000E /* HotKeyRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyRecorderView.swift; sourceTree = "<group>"; };
+		A1C0A02ED0A100000000000F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A1C0A02FD0A1000000000010 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		A1C0A030D0A1000000000011 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		A1C0A031D0A1000000000012 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		A1C0A032D0A1000000000013 /* HistoryWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryWindowController.swift; sourceTree = "<group>"; };
+		A1C0A023D0A1000000000004 /* HotKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyManager.swift; sourceTree = "<group>"; };
+		A1C0A024D0A1000000000005 /* SelectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionManager.swift; sourceTree = "<group>"; };
+		A1C0A025D0A1000000000006 /* FloatingPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanelController.swift; sourceTree = "<group>"; };
+		A1C0A026D0A1000000000007 /* OverlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayViewModel.swift; sourceTree = "<group>"; };
+		A1C0A027D0A1000000000008 /* LLMClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMClient.swift; sourceTree = "<group>"; };
+		A1C0A028D0A1000000000009 /* Providers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Providers.swift; sourceTree = "<group>"; };
+		A1C0A029D0A100000000000A /* ConfigLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigLoader.swift; sourceTree = "<group>"; };
+		A1C0A0C0D0A10000000000C0 /* YouTubeTranscriptClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeTranscriptClient.swift; sourceTree = "<group>"; };
+		A1C0A0C2D0A10000000000C2 /* KeyboardSubmitTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardSubmitTextView.swift; sourceTree = "<group>"; };
+		A1C0A02AD0A100000000000B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1C0A02BD0A100000000000C /* Providers.example.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Providers.example.json; sourceTree = "<group>"; };
+		A1C0A02CD0A100000000000D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1C0A030D0A1000000000030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1C0A040D0A1000000000040 = {
+			isa = PBXGroup;
+			children = (
+				A1C0A041D0A1000000000041 /* shadowTunnel */,
+				A1C0A010D0A1000000000010 /* shadowTunnel.app */,
+			);
+			sourceTree = "<group>";
+		};
+
+		A1C0A041D0A1000000000041 /* shadowTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				A1C0A020D0A1000000000001 /* shadowTunnelApp.swift */,
+				A1C0A021D0A1000000000002 /* ContentView.swift */,
+				A1C0A022D0A1000000000003 /* AppDelegate.swift */,
+				A1C0A02DD0A100000000000E /* HotKeyRecorderView.swift */,
+				A1C0A02ED0A100000000000F /* SettingsView.swift */,
+				A1C0A02FD0A1000000000010 /* HistoryView.swift */,
+				A1C0A030D0A1000000000011 /* HistoryStore.swift */,
+				A1C0A031D0A1000000000012 /* UserSettings.swift */,
+				A1C0A032D0A1000000000013 /* HistoryWindowController.swift */,
+				A1C0A023D0A1000000000004 /* HotKeyManager.swift */,
+				A1C0A024D0A1000000000005 /* SelectionManager.swift */,
+				A1C0A025D0A1000000000006 /* FloatingPanelController.swift */,
+				A1C0A026D0A1000000000007 /* OverlayViewModel.swift */,
+				A1C0A0C2D0A10000000000C2 /* KeyboardSubmitTextView.swift */,
+				A1C0A050D0A1000000000050 /* LLM */,
+				A1C0A051D0A1000000000051 /* Resources */,
+				A1C0A02CD0A100000000000D /* Info.plist */,
+			);
+			path = shadowTunnel;
+			sourceTree = "<group>";
+		};
+
+		A1C0A050D0A1000000000050 /* LLM */ = {
+			isa = PBXGroup;
+			children = (
+				A1C0A027D0A1000000000008 /* LLMClient.swift */,
+				A1C0A028D0A1000000000009 /* Providers.swift */,
+				A1C0A029D0A100000000000A /* ConfigLoader.swift */,
+				A1C0A0C0D0A10000000000C0 /* YouTubeTranscriptClient.swift */,
+			);
+			path = LLM;
+			sourceTree = "<group>";
+		};
+
+		A1C0A051D0A1000000000051 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1C0A02AD0A100000000000B /* Assets.xcassets */,
+				A1C0A02BD0A100000000000C /* Providers.example.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1C0A060D0A1000000000060 /* shadowTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C0A070D0A1000000000070 /* Build configuration list for PBXNativeTarget "shadowTunnel" */;
+			buildPhases = (
+				A1C0A061D0A1000000000061 /* Sources */,
+				A1C0A030D0A1000000000030 /* Frameworks */,
+				A1C0A062D0A1000000000062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shadowTunnel;
+			productName = shadowTunnel;
+			productReference = A1C0A010D0A1000000000010 /* shadowTunnel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1C0A080D0A1000000000080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A1C0A060D0A1000000000060 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A1C0A090D0A1000000000090 /* Build configuration list for PBXProject "shadowTunnel" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1C0A040D0A1000000000040;
+			productRefGroup = A1C0A040D0A1000000000040;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1C0A060D0A1000000000060 /* shadowTunnel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1C0A062D0A1000000000062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C0A00BD0A100000000000B /* Assets.xcassets in Resources */,
+				A1C0A00CD0A100000000000C /* Providers.example.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1C0A061D0A1000000000061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C0A001D0A1000000000001 /* shadowTunnelApp.swift in Sources */,
+				A1C0A002D0A1000000000002 /* ContentView.swift in Sources */,
+				A1C0A003D0A1000000000003 /* AppDelegate.swift in Sources */,
+				A1C0A00DD0A100000000000D /* HotKeyRecorderView.swift in Sources */,
+				A1C0A00ED0A100000000000E /* SettingsView.swift in Sources */,
+				A1C0A00FD0A100000000000F /* HistoryView.swift in Sources */,
+				A1C0B010D0A1000000000010 /* HistoryStore.swift in Sources */,
+				A1C0A011D0A1000000000011 /* UserSettings.swift in Sources */,
+				A1C0A012D0A1000000000012 /* HistoryWindowController.swift in Sources */,
+				A1C0A004D0A1000000000004 /* HotKeyManager.swift in Sources */,
+				A1C0A005D0A1000000000005 /* SelectionManager.swift in Sources */,
+				A1C0A006D0A1000000000006 /* FloatingPanelController.swift in Sources */,
+				A1C0A007D0A1000000000007 /* OverlayViewModel.swift in Sources */,
+				A1C0A008D0A1000000000008 /* LLMClient.swift in Sources */,
+				A1C0A009D0A1000000000009 /* Providers.swift in Sources */,
+				A1C0A00AD0A100000000000A /* ConfigLoader.swift in Sources */,
+				A1C0A0C1D0A10000000000C1 /* YouTubeTranscriptClient.swift in Sources */,
+				A1C0A0C3D0A10000000000C3 /* KeyboardSubmitTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1C0A0A0D0A10000000000A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = shadowTunnel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.shadowTunnel;
+				PRODUCT_NAME = shadowTunnel;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+
+		A1C0A0A1D0A10000000000A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = shadowTunnel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.shadowTunnel;
+				PRODUCT_NAME = shadowTunnel;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+
+		A1C0A0B0D0A10000000000B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+
+		A1C0A0B1D0A10000000000B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1C0A070D0A1000000000070 /* Build configuration list for PBXNativeTarget "shadowTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C0A0A0D0A10000000000A0 /* Debug */,
+				A1C0A0A1D0A10000000000A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+
+		A1C0A090D0A1000000000090 /* Build configuration list for PBXProject "shadowTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C0A0B0D0A10000000000B0 /* Debug */,
+				A1C0A0B1D0A10000000000B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1C0A080D0A1000000000080 /* Project object */;
+}
